@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form HTML</title>
+		<meta name="author" content="Friska May Wahyu">
+	</head>
+	<body>
+
+		<form method="" action="">
+			<fieldset>
+				<legend>Data Pribadi</legend>
+				<table>
+				<tr>
+				<th>
+					<label for="nama">Nama</label>
+				</th>
+					<td>
+						<input size="40" type="text" name="nama" id="nama" autofocus placeholder="Nama Lengkap" required>
+					</td>
+				</tr>
+
+				<tr>
+				<th>
+					<label for="nim">NIM</label>
+				</th>
+					<td>
+						<input type="number" name="nim" id="nim" value="12345" readonly>
+					</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label for="email">Email</label>
+					</th>
+						<td>
+							<input type="email" name="email" id="email">
+						</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label for="jk">Jenis Kelamin</label>
+					</th>
+						<td>
+							<input type="radio" name="jk" id="jk" value="Laki-Laki">Laki Laki
+						
+						<input type="radio" name="jk" id="jk" value="Perempuan">Perempuan
+						</td>
+				</tr>
+				
+				<tr>
+					<th>
+						<label for="tgl_lahir">Tanggal Lahir</label>
+					</th>
+						<td>
+							<input type="date" name="tgl_lahir" id="tgl_lahir">
+						<input type="datetime-local">
+						</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="hobby">Hobby</label>
+					</th>
+						<td>
+						<input type="checkbox" name="hobby" id="hobby" value="membaca">Membaca
+						<input type="checkbox" name="hobby" id="hobby" value="berenang">Berenang
+						<input type="checkbox" name="hobby" id="hobby" value="menyanyi">Menyanyi
+						</td>
+				</tr>
+
+				<tr>
+					<th>
+						<label for="password">Password</label>
+					</th>
+						<td>
+							<input type="password" name="password" id="password">
+						</td>
+				</tr>
+				<tr>
+					<th><label for="foto">Foto</label></th>
+						<td><input type="file" name="foto" id="foto" accept="image/*"></td></tr>
+				<tr>
+					<th><label for="warna">Warna fav u</label></th>
+						<td><input type="color" name="warna" id="warna"></td></tr>
+				<tr>
+					<th><label for="alamat">Alamat</label></th>
+					<td><textarea name="alamat" id="alamat" cols="30" rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<th><label for="kota">Kota</label></th>
+					<td>
+						<select name="kota" id="kota">
+							<option value="padang">Padang</option>
+							<option value="payakumbuh">Payakumbuh</option>
+							<option value="pariaman">Pariaman</option>
+							<option value="lubuklinggau">Lubuk Linggau</option>
+							<option value="solok">Solok</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr><td colspan="2">&nbsp;</td></tr>
+				<tr><td colspan="2" align="center"><input type="submit"></td></tr>
+				</table>
+			</fieldset>
+
+		</form>
+	</body>
+</html>
